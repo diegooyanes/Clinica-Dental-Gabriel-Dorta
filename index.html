@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Clínica Dental Gabriel Dorta - Ortodoncia y Confianza Familiar en Los Realejos</title>
+    <meta name="description" content="Clínica dental especializada en ortodoncia en Los Realejos, Tenerife. Trato cercano, profesionalidad y confianza familiar. Dr. Juan Carlos especialista en ortodoncia." />
+    <meta name="keywords" content="clínica dental Los Realejos, ortodoncia Tenerife, dentista de confianza, odontología general, odontopediatría" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#137fec",
+              navy: "#1A2B4C",
+              "teal-caring": "#4FB5AC",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              display: ["Manrope", "sans-serif"],
+              serif: ["Playfair Display", "serif"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+      .serif-font {
+        font-family: "Playfair Display", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+      <div class="layout-container flex h-full grow flex-col">
+        <!-- Top Navigation -->
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-white dark:bg-background-dark sticky top-0 z-50">
+          <div class="flex items-center gap-3 text-navy dark:text-primary">
+            <img src="img/logo.png" alt="Logo Clínica Dental Gabriel Dorta" class="w-12 h-12 rounded-lg object-cover" />
+            <div>
+              <h2 class="text-navy dark:text-slate-100 text-xl font-extrabold leading-tight tracking-tight">Gabriel Dorta</h2>
+              <p class="text-xs text-teal-caring font-semibold">Clínica Dental</p>
+            </div>
+          </div>
+          <nav class="hidden lg:flex items-center gap-8">
+            <a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#inicio">Inicio</a>
+            <a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#elegirnos">Sobre nosotros</a>
+            <a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#servicios">Servicios</a>
+            <a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#ortodoncia">Ortodoncia</a>
+            <a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#contacto">Contacto</a>
+          </nav>
+          <div class="flex items-center gap-4">
+            <a href="https://wa.me/34620191179" target="_blank" rel="noopener noreferrer" class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-full h-10 px-6 bg-primary text-white text-sm font-bold shadow-lg hover:shadow-primary/30 transition-all">
+              <span>Pide cita</span>
+            </a>
+          </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="inicio" class="relative px-6 md:px-20 py-12 md:py-24 bg-white dark:bg-background-dark overflow-hidden">
+          <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+            <div class="flex flex-col gap-8 lg:w-1/2">
+              <div class="flex flex-col gap-4">
+                <span class="text-teal-caring font-bold tracking-widest uppercase text-sm">Especialistas en Sonrisas</span>
+                <h1 class="serif-font text-navy dark:text-slate-100 text-4xl md:text-6xl font-bold leading-[1.1]">
+                  Tu sonrisa, en las mejores manos: <span class="text-primary">Confianza y Excelencia</span> en Ortodoncia
+                </h1>
+                <p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-xl">
+                  Cuidamos de la salud dental de toda tu familia con la tecnología más avanzada y un trato cercano que te hará sentir como en casa.
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-4">
+                <a href="https://wa.me/34620191179" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 min-w-[180px] justify-center rounded-xl h-14 px-8 bg-[#25D366] text-white text-lg font-bold shadow-xl hover:scale-105 transition-transform">
+                  <span class="material-symbols-outlined">chat</span>
+                  <span>Cita por WhatsApp</span>
+                </a>
+                <a href="#contacto" class="flex min-w-[180px] justify-center items-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-slate-700 text-navy dark:text-slate-100 text-lg font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+                  <span>Consulta informativa</span>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/2 relative">
+              <div class="absolute -top-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+              <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-teal-caring/10 rounded-full blur-3xl"></div>
+              <img src="img/zona trabajo.jpg" alt="Familia feliz en la clínica dental" class="w-full rounded-3xl shadow-2xl z-10 relative border-8 border-white dark:border-slate-800 h-[400px] md:h-[550px] object-cover" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Por qué elegirnos Section -->
+        <section id="elegirnos" class="bg-background-light dark:bg-slate-900 px-6 md:px-20 py-20">
+          <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 flex flex-col items-center gap-4">
+              <h2 class="serif-font text-3xl md:text-4xl font-bold text-navy dark:text-slate-100">Por qué elegir nuestra clínica</h2>
+              <div class="w-20 h-1 bg-primary rounded-full"></div>
+              <p class="text-slate-600 dark:text-slate-400 text-lg max-w-2xl">Nuestra prioridad es tu bienestar y el de los tuyos, ofreciendo un servicio integral basado en cinco pilares fundamentales.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+              <div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col items-center text-center gap-4 group hover:border-primary transition-all">
+                <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+                  <span class="material-symbols-outlined text-3xl">military_tech</span>
+                </div>
+                <h3 class="font-bold text-navy dark:text-slate-100">Experiencia</h3>
+                <p class="text-sm text-slate-500 dark:text-slate-400">Años de trayectoria garantizando resultados excelentes en cada tratamiento.</p>
+              </div>
+              <div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col items-center text-center gap-4 group hover:border-primary transition-all">
+                <div class="w-16 h-16 rounded-full bg-teal-caring/10 flex items-center justify-center text-teal-caring group-hover:bg-teal-caring group-hover:text-white transition-all">
+                  <span class="material-symbols-outlined text-3xl">favorite</span>
+                </div>
+                <h3 class="font-bold text-navy dark:text-slate-100">Trato Humano</h3>
+                <p class="text-sm text-slate-500 dark:text-slate-400">Te hacemos sentir cómodo y como en casa desde el primer momento.</p>
+              </div>
+              <div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col items-center text-center gap-4 group hover:border-primary transition-all">
+                <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+                  <span class="material-symbols-outlined text-3xl">memory</span>
+                </div>
+                <h3 class="font-bold text-navy dark:text-slate-100">Tecnología</h3>
+                <p class="text-sm text-slate-500 dark:text-slate-400">Equipamiento de última generación para diagnósticos precisos.</p>
+              </div>
+              <div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col items-center text-center gap-4 group hover:border-primary transition-all">
+                <div class="w-16 h-16 rounded-full bg-teal-caring/10 flex items-center justify-center text-teal-caring group-hover:bg-teal-caring group-hover:text-white transition-all">
+                  <span class="material-symbols-outlined text-3xl">chat_bubble</span>
+                </div>
+                <h3 class="font-bold text-navy dark:text-slate-100">Claridad</h3>
+                <p class="text-sm text-slate-500 dark:text-slate-400">Transparencia absoluta en cada diagnóstico y plan de tratamiento.</p>
+              </div>
+              <div class="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col items-center text-center gap-4 group hover:border-primary transition-all">
+                <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
+                  <span class="material-symbols-outlined text-3xl">home</span>
+                </div>
+                <h3 class="font-bold text-navy dark:text-slate-100">Familiar</h3>
+                <p class="text-sm text-slate-500 dark:text-slate-400">Un espacio acogedor diseñado para pacientes de todas las edades.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="servicios" class="bg-white dark:bg-background-dark px-6 md:px-20 py-20">
+          <div class="max-w-7xl mx-auto">
+            <h2 class="serif-font text-3xl md:text-4xl font-bold text-navy dark:text-slate-100 mb-12">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+              <div class="flex flex-col gap-4 group relative">
+                <div class="absolute top-4 left-4 z-20">
+                  <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest shadow-lg">Servicio Estrella</span>
+                </div>
+                <div class="w-full aspect-[3/4] bg-center bg-cover rounded-2xl overflow-hidden group-hover:shadow-2xl transition-all duration-300 relative" style="background-image: linear-gradient(135deg, rgba(19, 127, 236, 0.2), rgba(79, 181, 172, 0.2)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHQkxIcXfJFm23ezbey9Ws8qAVCqGmngLYwvrs-Fpcw803mhitFJRszA601aAy7H-w1z9JhzHxsF24I1eJ7hlDtosJftFDaIiZTY8Q8oFAuihqASOnJ-wnDyE_wciiFk_cow5ZGC-o6HjZWKc-KaSl9XDQu63HG4AZOsKtTq2CmZA3jVfj0fddiUA-20cSReWgzXte-4l4TItW-QEWv17w_Ro5iweGXi8HQavm5HInKI6zJsjDUh64suKuoLXcz4o2u7jCtCgtF9k');">
+                  <div class="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent"></div>
+                  <div class="absolute bottom-6 left-6 right-6">
+                    <h4 class="text-white text-xl font-bold">Ortodoncia</h4>
+                    <p class="text-white/80 text-xs">Transforma tu sonrisa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4 group">
+                <div class="w-full aspect-[3/4] bg-center bg-cover rounded-2xl overflow-hidden group-hover:shadow-xl transition-all relative" style="background-image: linear-gradient(135deg, rgba(79, 181, 172, 0.2), rgba(19, 127, 236, 0.2)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDVeO3rmxyvrAN2Ojsw1ZP8hlp9jS9ESARaTUc2ubOG-kN1iRYLGroYThM41fZJdBJ7a45GcQ6okX0O17d3-yFEl-GnboJaep4sqXgH5ahXeRyqdKWFWXbzTZeuZ-CnSnmIhwym1rdVvXSsISR9eg6DKqj2eQkWMRGQKZbVQy8P8R8CgggD4H5TmzkbLi1WIHF6QkWG9i-yARTzIRs0jRBgjG-Jec1IdKBWgTXgZSWQS0hNzXp8--qhU78QDNhxHYl9t0SI3KXdTVs');">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div class="absolute bottom-6 left-6 right-6">
+                    <h4 class="text-white text-xl font-bold">Odontopediatría</h4>
+                    <p class="text-white/80 text-xs">Cuidado para niños</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4 group">
+                <div class="w-full aspect-[3/4] bg-center bg-cover rounded-2xl overflow-hidden group-hover:shadow-xl transition-all relative" style="background-image: linear-gradient(135deg, rgba(26, 43, 76, 0.2), rgba(227, 236, 255, 0.2)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCzbkEBMECpvvctaXhWIvRXfW8O513UoWQEQQddimYSOsDxO_dQ1tGUzpF-MfRcW1Q9ZOeWYJfvBKWATaMtq2Jpzl7ODrE2Qxpq-pbP2o1sLVv5wQJuZmMCbwThCXZE9xUK0qw5vYS-Zm7nRfmCCebG0fIKtdCaC1pmlcO3pvyH-dy3UE6qtbV2QL0IEGhGd9TeXW__WJ9PIZHjbSq6wLvuKR0q7Pq7ixbZqegUGIVq_18S9svVMwREbXUOq5sn7S0HYUf1Corh2iQ');">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div class="absolute bottom-6 left-6 right-6">
+                    <h4 class="text-white text-xl font-bold">Odontología General</h4>
+                    <p class="text-white/80 text-xs">Salud bucodental integral</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4 group">
+                <div class="w-full aspect-[3/4] bg-center bg-cover rounded-2xl overflow-hidden group-hover:shadow-xl transition-all relative" style="background-image: linear-gradient(135deg, rgba(19, 127, 236, 0.15), rgba(237, 244, 255, 0.15)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuAFIPaL36nCbqHWpmQeTt6q3hMMZIMK21d18hpssiD1yGpTMvIGtTtZJGAw1dKnlFBNKZmuQsKb2BYpqTsAIZfI19w__Z3oq1RsLZmTgSx1MB1UZIQ32Aao6T6loYCUMA450Ny4CatdBxgqHF880vNvjN6hSLL9vwg80O3n3RfTLdqxzMnMvIPExdoysczG-O0u-3LPhKqW2ldTmuLTp06PjSQF3TFysMjbPiU8PGFs9t1mRrxPSwL6RB6Mlt8KqhG66lCkiY6WRVg');">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div class="absolute bottom-6 left-6 right-6">
+                    <h4 class="text-white text-xl font-bold">Urgencias</h4>
+                    <p class="text-white/80 text-xs">Atención inmediata</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4 group">
+                <div class="w-full aspect-[3/4] bg-center bg-cover rounded-2xl overflow-hidden group-hover:shadow-xl transition-all relative" style="background-image: linear-gradient(135deg, rgba(79, 181, 172, 0.15), rgba(230, 241, 255, 0.15)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuAkgf8kJoorCOdQl3gn8vrMTPnCHnKsh2yzDUjXCpBXhYbct5MSvwSu39qDrL2h0sx9lMrd82L38H6VbZHAbiZFcil5cuCpVBLE3AzWVPYDZ1PPAGR9_RzKaJKtjlLPKtSsS_sokvi6X2eMkEChNdB6iS6cCpk6kU9mjw3GndjGvHxDOKxYd0MBu5fTyNXJK9VjrWOO97UpsCHIW6ATBpr0tl36Hr4pK9hLfLSHvZnjrTiZWgt8kalS4ro_kr0TcdJMisZM3wTZtLI');">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div class="absolute bottom-6 left-6 right-6">
+                    <h4 class="text-white text-xl font-bold">Estética</h4>
+                    <p class="text-white/80 text-xs">Mejora tu estética dental</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Featured Orthodontics Section -->
+        <section id="ortodoncia" class="bg-navy text-white px-6 md:px-20 py-24 overflow-hidden relative">
+          <div class="absolute right-0 top-0 w-1/3 h-full opacity-10 pointer-events-none">
+            <span class="material-symbols-outlined text-[400px]">dentistry</span>
+          </div>
+          <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2 flex flex-col gap-8">
+              <span class="text-primary font-bold tracking-widest uppercase text-sm">Nuestro Especialista</span>
+              <h2 class="serif-font text-4xl md:text-5xl font-bold leading-tight">La transformación de tu sonrisa comienza aquí</h2>
+              <p class="text-slate-300 text-lg leading-relaxed">
+                Bajo la dirección del <strong class="text-white">Dr. Gabriel Dorta</strong>, nuestro departamento de Ortodoncia combina años de experiencia clínica con los sistemas más modernos (Invisalign, Brackets de Zafiro, Autoligables) para diseñar la sonrisa que siempre has deseado.
+              </p>
+              <p class="text-slate-300 text-lg leading-relaxed italic border-l-4 border-primary pl-6">
+                "No solo alineamos dientes, construimos la confianza que necesitas para enfrentarte al mundo con tu mejor sonrisa."
+              </p>
+              <div class="flex justify-center">
+                <a href="https://wa.me/34620191179" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center rounded-full h-14 px-10 bg-primary text-white text-lg font-bold hover:bg-primary/90 transition-colors">
+                  Pide tu valoración de ortodoncia
+                </a>
+              </div>
+            </div>
+            <div class="md:w-1/2">
+              <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-700/50">
+                <img src="img/gabriel dentista.jpg" alt="Dr. Gabriel Dorta - Especialista en Ortodoncia" class="w-full aspect-video bg-slate-300 object-cover" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonios" class="bg-background-light dark:bg-slate-900 px-6 md:px-20 py-24">
+          <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+              <h2 class="serif-font text-3xl md:text-4xl font-bold text-navy dark:text-slate-100">Lo que dicen nuestros pacientes</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="bg-white dark:bg-background-dark p-8 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col gap-4 relative" data-review="1">
+                <span class="material-symbols-outlined text-primary text-5xl absolute -top-6 left-8 opacity-20">format_quote</span>
+                <div class="flex text-yellow-400 gap-0.5 text-2xl">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300 italic text-base font-medium overflow-hidden transition-all duration-300" id="text-review1" style="max-height: 120px;">"Llevo unos meses con ortodoncia y los resultados son estupendos. El trabajo de Juan Carlos es magnífico. Siempre salgo con la alegría de saber que el esfuerzo está dando fruto (aunque solo es necesario ver mi sonrisa en fotos antiguas para ver la diferencia). El equipo humano es fantástico! Estoy muy contenta y recomiendo mucho a Juan Carlos!"</p>
+                <button onclick="toggleReview('review1')" class="text-primary font-semibold text-sm hover:text-primary/80 transition-colors flex items-center gap-1 mt-2" id="btn-expand-review1">
+                  <span>Ver más</span>
+                  <span class="material-symbols-outlined text-sm">expand_more</span>
+                </button>
+                <button onclick="toggleReview('review1')" class="text-primary font-semibold text-sm hover:text-primary/80 transition-colors hidden items-center gap-1 mt-2" id="btn-collapse-review1">
+                  <span>Ver menos</span>
+                  <span class="material-symbols-outlined text-sm">expand_less</span>
+                </button>
+                <div class="flex items-center gap-4 mt-2">
+                  <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-teal-caring flex items-center justify-center text-white text-lg font-bold">CG</div>
+                  <div>
+                    <p class="font-bold text-navy dark:text-slate-100">Cristina González-Montelongo</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white dark:bg-background-dark p-8 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col gap-4 relative" data-review="2">
+                <span class="material-symbols-outlined text-primary text-5xl absolute -top-6 left-8 opacity-20">format_quote</span>
+                <div class="flex text-yellow-400 gap-0.5 text-2xl">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300 italic text-base font-medium overflow-hidden transition-all duration-300" id="text-review2" style="max-height: 120px;">"Les recomiendo La Clínica Gabriel Dorta, mi experiencia con ellos ha sido y sigue siendo muy buena. Desde mi inicio en mi ortodoncia, he tenido un trato por parte de ellos increíble, muy buenos profesionales y sobre todo , buenas personas. Su trabajo es excelente."</p>
+                <button onclick="toggleReview('review2')" class="text-primary font-semibold text-sm hover:text-primary/80 transition-colors flex items-center gap-1 mt-2" id="btn-expand-review2">
+                  <span>Ver más</span>
+                  <span class="material-symbols-outlined text-sm">expand_more</span>
+                </button>
+                <button onclick="toggleReview('review2')" class="text-primary font-semibold text-sm hover:text-primary/80 transition-colors hidden items-center gap-1 mt-2" id="btn-collapse-review2">
+                  <span>Ver menos</span>
+                  <span class="material-symbols-outlined text-sm">expand_less</span>
+                </button>
+                <div class="flex items-center gap-4 mt-2">
+                  <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-teal-caring flex items-center justify-center text-white text-lg font-bold">MD</div>
+                  <div>
+                    <p class="font-bold text-navy dark:text-slate-100">Miriam De Leon Hernandez</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white dark:bg-background-dark p-8 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col gap-4 relative" data-review="3">
+                <span class="material-symbols-outlined text-primary text-5xl absolute -top-6 left-8 opacity-20">format_quote</span>
+                <div class="flex text-yellow-400 gap-0.5 text-2xl">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300 italic text-base font-medium overflow-hidden transition-all duration-300" id="text-review3" style="max-height: 120px;">"Recomiendo Clínica dental Gabriel Dorta al 💯 x💯 Empecé yo y mi marido hace muchos años y después empezaron mis hij@s. Desde los 4 años acuden a la consulta y ahora tienen 9 años y el trato hacia nosotr@s, la amabilidad, el buen trabajo, ha sido insuperable. Siempre se ha oído que los niñ@s le han tenido miedo a ir al dentista,pues yo no he tenido ese problema con mis hij@s, porque la profesionalidad que tienen lo hace todo más fácil. El tacto que han tenido con los niñ@s ha sido inmejorable. Gracias a todo el equipo que forma Clínica dental Gabriel Dorta y personalmente ahora mismo a María por las manos que tiene para hacer que todo sea tan fácil y en especial a Maitane que los a visto crecer en la consulta y por siempre tener buenas palabras, siempre una sonrisa, amable y paciente, y que mis hij@s siempre quieran ir al dentista con ganas. Por todo ésto y más... Gracias y mil Gracias!!!👍🏼👌👏👏👏"</p>
+                <button onclick="toggleReview('review3')" class="text-primary font-semibold text-sm hover:text-primary/80 transition-colors flex items-center gap-1 mt-2" id="btn-expand-review3">
+                  <span>Ver más</span>
+                  <span class="material-symbols-outlined text-sm">expand_more</span>
+                </button>
+                <button onclick="toggleReview('review3')" class="text-primary font-semibold text-sm hover:text-primary/80 transition-colors hidden items-center gap-1 mt-2" id="btn-collapse-review3">
+                  <span>Ver menos</span>
+                  <span class="material-symbols-outlined text-sm">expand_less</span>
+                </button>
+                <div class="flex items-center gap-4 mt-2">
+                  <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-teal-caring flex items-center justify-center text-white text-lg font-bold">DD</div>
+                  <div>
+                    <p class="font-bold text-navy dark:text-slate-100">Delioma Diaz Navarro</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Family Care Section -->
+        <section class="px-6 md:px-20 py-24 bg-teal-caring/5">
+          <div class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-16">
+            <div class="lg:w-1/2 flex flex-col gap-6">
+              <h2 class="serif-font text-3xl md:text-5xl font-bold text-navy dark:text-slate-100 leading-tight">Odontología para todas las generaciones</h2>
+              <p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
+                En Clínica Dental Gabriel Dorta, no solo tratamos pacientes, cuidamos de familias. Desde la primera revisión del más pequeño hasta las necesidades de los más mayores, estamos aquí para acompañaros durante toda la vida.
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li class="flex items-center gap-3 text-navy dark:text-slate-200 font-semibold">
+                  <span class="material-symbols-outlined text-teal-caring">check_circle</span>
+                  Adaptación sin miedo para niños
+                </li>
+                <li class="flex items-center gap-3 text-navy dark:text-slate-200 font-semibold">
+                  <span class="material-symbols-outlined text-teal-caring">check_circle</span>
+                  Planes familiares personalizados
+                </li>
+                <li class="flex items-center gap-3 text-navy dark:text-slate-200 font-semibold">
+                  <span class="material-symbols-outlined text-teal-caring">check_circle</span>
+                  Facilidades de financiación
+                </li>
+              </ul>
+            </div>
+            <div class="lg:w-1/2">
+              <div class="grid grid-cols-2 gap-4">
+                <div class="rounded-3xl overflow-hidden h-80 shadow-lg bg-center bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBJ1Gc2rkLjh-7MeDF1wnCd71Q8q_mJ23reM9-CFX7NiYI7md58x6ZPp7JKnCAP6E3SKVUjs6ibkN7Ynar9je4MrVyoP-ko74GjkUD0fn6ZohfJrhEePguGzvIGdhoXBsTe19CUAZw9cCIUrJC3lSZ65glDW5GyI5_b3reGhHkt1-sI3Mx9FJwTVKwj7FykX9FNKorIVGlxIxuJfbnchJ7FgcBK8SJCBPgkd2bIpZCOSHVFc7j-01uP7bUyTEJrou7wcUFNLPSA3YY');"></div>
+                <div class="rounded-3xl overflow-hidden h-80 shadow-lg mt-12 bg-center bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCxww24jTkzYm26ijhOmoevyAwiB93SrhjYNw6y8bezphJWtRJzoT-_H_e05e-Pw_A8IF66YTyzVvXrso_lRaTpNqT48m1z8E60OhEQ2ZLamA2NkfQIRsauxGbv2zF7XhG4WlBxanIyeGpEE5P6CKEav2sshaqhOdG6JN3XvcjW9Av4s31ynG_C5ZpYzNMS4CuCuXDDdokazykEtxfgbrUOIhocKTGdsTNy0Mxqmqk1RZksg8o52lbuKk3rgvlL6ZhQaLUJG3G1K8U');"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Located Section with Google Maps -->
+        <section id="ubicacion" class="px-6 md:px-20 py-24 bg-white dark:bg-background-dark">
+          <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 flex flex-col items-center gap-4">
+              <h2 class="serif-font text-3xl md:text-4xl font-bold text-navy dark:text-slate-100">Dónde encontrarnos</h2>
+              <div class="w-20 h-1 bg-primary rounded-full"></div>
+              <p class="text-slate-600 dark:text-slate-400 text-lg max-w-2xl">Ubicados en el corazón de Los Realejos, con fácil acceso y amplio aparcamiento. Te esperamos.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              <div class="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700 h-[450px]">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.577646285428!2d-16.31928!3d28.54667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc417507b8d8d8d8d%3A0x0!2sAv.%20Tres%20de%20Mayo%2C%2014%2C%2038410%20Los%20Realejos!5e0!3m2!1ses!2ses!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="flex flex-col gap-8">
+                <div class="flex flex-col gap-4">
+                  <h3 class="serif-font text-2xl font-bold text-navy dark:text-slate-100">Información de contacto</h3>
+                  <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                      <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+                        <span class="material-symbols-outlined">location_on</span>
+                      </div>
+                      <div>
+                        <p class="font-bold text-navy dark:text-slate-100">Dirección</p>
+                        <p class="text-slate-600 dark:text-slate-400 text-sm">Av. Tres de Mayo, 14, bajo edificio Izaña, 38410 Los Realejos, Santa Cruz de Tenerife, Spain</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+                        <span class="material-symbols-outlined">call</span>
+                      </div>
+                      <div>
+                        <p class="font-bold text-navy dark:text-slate-100">Teléfono</p>
+                        <a href="tel:+34922342900" class="text-primary font-semibold hover:underline">+34 922 34 29 00</a>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="w-12 h-12 rounded-full bg-[#25D366]/10 flex items-center justify-center text-[#25D366] flex-shrink-0">
+                        <span class="material-symbols-outlined">chat</span>
+                      </div>
+                      <div>
+                        <p class="font-bold text-navy dark:text-slate-100">WhatsApp</p>
+                        <a href="https://wa.me/34620191179" target="_blank" rel="noopener noreferrer" class="text-[#25D366] font-semibold hover:underline">+34 620 19 11 79 (respuesta ágil)</a>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+                        <span class="material-symbols-outlined">schedule</span>
+                      </div>
+                      <div>
+                        <p class="font-bold text-navy dark:text-slate-100">Horario</p>
+                        <p class="text-slate-600 dark:text-slate-400 text-sm">Lunes a Viernes: 9:30 AM - 7:00 PM</p>
+                        <p class="text-slate-600 dark:text-slate-400 text-sm">Viernes: 9:30 AM - 6:00 PM</p>
+                        <p class="text-slate-600 dark:text-slate-400 text-sm">Sábado y Domingo: Cerrado</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="https://wa.me/34620191179" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 min-w-[200px] justify-center rounded-xl h-14 px-8 bg-[#25D366] text-white text-lg font-bold shadow-xl hover:scale-105 transition-transform w-full">
+                  <span class="material-symbols-outlined">chat</span>
+                  <span>Escríbenos por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer / Contact -->
+        <footer id="contacto" class="bg-navy text-white px-6 md:px-20 pt-20 pb-10">
+          <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-1 md:col-span-1">
+              <div class="flex items-center gap-2 mb-6">
+                <div class="w-12 h-12 bg-gradient-to-br from-primary to-teal-caring rounded-lg flex items-center justify-center text-white font-bold text-lg">GD</div>
+                <h2 class="text-2xl font-bold">Gabriel Dorta</h2>
+              </div>
+              <p class="text-slate-400 leading-relaxed mb-6">Excelencia en salud bucodental y ortodoncia especializada en un ambiente familiar.</p>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h4 class="font-bold text-lg mb-2">Contacto</h4>
+              <div class="flex items-start gap-3 text-slate-400">
+                <span class="material-symbols-outlined text-primary">location_on</span>
+                <p>Av. Tres de Mayo, 14, 38410 Los Realejos, Tenerife</p>
+              </div>
+              <div class="flex items-center gap-3 text-slate-400">
+                <span class="material-symbols-outlined text-primary">call</span>
+                <a href="tel:+34922342900" class="hover:text-white">+34 922 34 29 00</a>
+              </div>
+              <div class="flex items-center gap-3 text-slate-400">
+                <span class="material-symbols-outlined text-primary">mail</span>
+                <a href="mailto:clinica@dentalgdorta.com" class="hover:text-white">clinica@dentalgdorta.com</a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h4 class="font-bold text-lg mb-2">Horarios</h4>
+              <p class="text-slate-400">Lunes a Jueves:<br />9:30 AM - 7:00 PM</p>
+              <p class="text-slate-400">Viernes:<br />9:30 AM - 6:00 PM</p>
+              <p class="text-slate-400">Sábado y Domingo:<br />Cerrado</p>
+            </div>
+            <div class="flex flex-col gap-6 bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+              <h4 class="font-bold text-lg">¿Alguna duda?</h4>
+              <p class="text-sm text-slate-400">Escríbenos directamente a WhatsApp y te responderemos en minutos.</p>
+              <a href="https://wa.me/34620191179" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] text-white py-3 px-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:scale-105 transition-transform shadow-lg w-full">
+                <span class="material-symbols-outlined">chat</span>
+                <span>Respondemos al instante</span>
+              </a>
+            </div>
+          </div>
+          <div class="max-w-7xl mx-auto pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
+            <p>© 2024 Clínica Dental Gabriel Dorta. Todos los derechos reservados.</p>
+            <div class="flex gap-6">
+              <a class="hover:text-white" href="#">Aviso Legal</a>
+              <a class="hover:text-white" href="#">Privacidad</a>
+              <a class="hover:text-white" href="#">Cookies</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
